@@ -1,0 +1,172 @@
+.{box-sizing: border-box;}
+
+.segundo
+{
+    color: red;
+}
+
+#primeiro
+{
+  color: blue;  
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.container
+{
+    background-color: #333;
+    color: rgb(253, 253, 253);
+    width:80%;
+    
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+    margin: auto;
+
+    padding: 60px;
+    border-top: 15px solid red;
+    border-bottom: 15px solid blueviolet;
+    border-left:15px solid chartreuse;
+    border-right: 15px solid green;
+}
+
+.aside h2
+{
+    text-align: center;
+}
+.aside h2:hover
+{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.aside ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.aside ul a
+{
+    text-decoration: none;
+    color: red;
+}
+.aside ul a:hover
+{
+    color: green;
+    cursor: pointer;
+}
+
+.aside ul a:visited
+{
+    color: chartreuse;
+}
+
+/* formulários */
+
+.form
+{
+    padding-left: 20px;
+}    
+
+.formgroup
+{
+    margin-bottom: 10px;
+}
+
+.form .formgroup label
+{
+display: block;
+}
+
+.form .formgroup input
+{
+    padding:10px;
+    width: 100%;
+}
+
+.button
+{
+    padding: 15px;
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+}
+.box{ width: 80%; margin: auto;}
+
+/* posições */
+
+.relative
+{
+    position: relative;
+    border: 3px solid #333;
+    height: 500px;
+}
+
+.relative .absolute
+{
+    position: absolute;
+    
+    bottom: 0;
+}
+
+.relative .absolute h1{margin: 0;}
+/* navbar */
+.mainnavbar{
+    color:#eee;
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+}
+/* botão */
+
+.fixedbutton
+{
+    color:#eee;
+    background-color: #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin: 20px;
+}
+/* categorias */
+
+.categorias
+{
+    list-style: none;
+
+}
+
+.categorias ul li:first-child
+{
+    color: blue;
+}
+.categorias ul li:nth-child(3)
+{
+    color: red;
+}
+
+.categorias ul li:last-child
+{
+    color: green;
+}
+.categorias ul li:nth-child(even)
+{
+    color: yellow;
+}
