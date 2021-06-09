@@ -56,7 +56,7 @@ export default class RestaurantsDAO {
       return { restaurantsList: [], totalNumRestaurants: 0 }
     }
   }
- /* static async getRestaurantByID(id) {
+  static async getRestaurantByID(id) {
     try {
       const pipeline = [
         {
@@ -110,5 +110,4 @@ export default class RestaurantsDAO {
       return cuisines
     }
   }
-} } */
-}
+} 
